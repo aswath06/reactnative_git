@@ -5,8 +5,8 @@ export default function Profile_details() {
   return (
     <View style={styles.container}>
       <View style={styles.contentContainer}>
-        <Text style={styles.text}>Name : Subramanian G</Text>
-        <Text style={styles.text}>Roll No: 7376231CS322</Text>
+        <Text style={styles.text}>Crayon'd Workshop</Text>
+        <Text style={styles.text}>Git push and pull </Text>
       </View>
     </View>
   );
