@@ -6,6 +6,7 @@ export default function Profile_details() {
     <View style={styles.container}>
       <View style={styles.contentContainer}>
         <Text style={styles.text}>Crayon'd Workshop</Text>
+        <Text style={styles.text}>25/09/2024</Text>
         <Text style={styles.text}>Git push and pull task</Text>
       </View>
     </View>
