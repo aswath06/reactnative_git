@@ -7,7 +7,7 @@ export default function Home_details() {
 
   return (
     <View style={styles.contentContainer}>
-      <Text style={styles.text}>Homepage</Text>
+      <Text style={styles.text}>Manage Your Tasks</Text>
       <TouchableOpacity
         style={styles.pro_nav}
         onPress={() => navigation.navigate('Profile')}
@@ -21,18 +21,21 @@ export default function Home_details() {
 const styles = StyleSheet.create({
   contentContainer: {
     flex: 1,
-    justifyContent: 'center',
+    justifyContent: 'flex-start',
     alignItems: 'center',
+    backgroundColor:'black',
   },
   text: {
     fontWeight: '900',
-    fontSize: 20,
-    color: 'black',
+    fontSize: 50,
+    color: 'white',
+    paddingTop:30,
   },
   pro_nav: {
     margin: 15,
-    borderColor: 'black',
+    borderColor: 'white',
     borderWidth: 1.5,
     borderRadius: 15,
+
   },
 });
